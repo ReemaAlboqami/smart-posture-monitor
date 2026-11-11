@@ -37,13 +37,15 @@ Wiring:
 | HC-05 RXD | D4 |
 | HC-05 TXD | D5 |
 
+![Hardware build](figures/hardware_build.png)
+
 ## Results
 
 Upright posture was set as the 0 baseline, and a bend reading above 300 was treated as slouching. Across repeated trials the device tracked the change in real time and raised the alert every time the threshold was crossed.
 
 Live output in the Bluetooth terminal during testing:
 
-<img src="figures/bluetooth_terminal_output.png" alt="Bluetooth terminal output" width="320">
+<img src="figures/bluetooth_terminal_output.png" alt="Bluetooth terminal output" width="420">
 
 ## Files
 
@@ -51,7 +53,7 @@ Live output in the Bluetooth terminal during testing:
 | --- | --- |
 | `firmware/posture_monitor/posture_monitor.ino` | Arduino sketch |
 | `docs/report.pdf` | Project report |
-| `figures/` | Terminal output from testing |
+| `figures/` | Hardware build photos and terminal output from testing |
 
 ## Running it
 
